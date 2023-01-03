@@ -5,8 +5,8 @@ import os
 import boto3
 from botocore.exceptions import ClientError
 
-BUCKET_NAME = 'FILL_THIS_IN'
-PREFIX = 'FILL_THIS_IN'
+BUCKET_NAME = 'mlflowdemo-kb'
+PREFIX = 'l3e1_solution'
 
 # Function below unzips the archive to the local directory. 
 
